@@ -246,7 +246,14 @@ a {
 /* carousel ends */
 
 /* ecom__grid-frist */
-
+.Ecom__grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2rem;
+}
+.Ecom__grid-first {
+  border: 1px solid rebeccapurple;
+}
 .btn-bg {
   padding: 1rem;
   border-radius: 1em;
@@ -275,6 +282,10 @@ a {
   margin: 0.5em;
 }
 
+.grid-img {
+  display: flex;
+  justify-content: center;
+}
 .user-action {
   display: flex;
   justify-content: space-between;
@@ -286,9 +297,12 @@ a {
   padding: 0.5em;
   border-radius: 0.5em;
   align-self: center;
+  border: 1px solid transparent;
+  cursor: pointer;
 }
 
-.cart:nth-of-type(2) {
+.user-action button {
+  cursor: pointer;
   background-color: #f9f871;
 }
 
@@ -404,3 +418,16 @@ a {
 }
 
 /* footer ends */
+
+@media only screen and (max-width: 500px) {
+  .grid-card {
+    width: 40%;
+  }
+  .user-action > a {
+    font-size: 14px;
+  }
+  .user-action button > svg {
+    width: 15px;
+    height: 15px;
+  }
+}
