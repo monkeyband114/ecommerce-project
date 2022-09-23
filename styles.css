@@ -432,6 +432,46 @@ a {
 
 /* carousel ends */
 
+/* claim bar  */
+
+.Ecom__coupon {
+  background: #000;
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+}
+.Ecom__coupon-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  object-fit: fill;
+}
+
+.Ecom__coupon-text h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 59px;
+
+  color: #fffff8;
+}
+
+.Ecom__coupon-text button {
+  width: 100.17px;
+  height: 40.43px;
+  border: #000;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  background-color: rgba(255, 238, 0, 0.973);
+}
+
+/* claim bar ends */
+
 /* ecom__grid-frist */
 .Ecom__grid {
   display: grid;
