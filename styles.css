@@ -613,23 +613,20 @@ a {
   width: 29%;
 }
 
-.sections > * {
-  margin: 1em 0;
-}
-
-.sections > h2 {
-  margin: 0.5em 0;
+.sections h2 {
+  margin-bottom: 1.5em;
   font-weight: 600;
 }
 
-.sections > p {
+.sections p {
   font-size: 0.8em;
+  margin-bottom: 1.5em;
 }
 
-.sections > a {
+.sections a {
   padding: 0.5em;
   border: 1px solid black;
-  background: #c4c4c4;
+  background: rgb(50, 50, 255);
 }
 
 .grid-margin {
