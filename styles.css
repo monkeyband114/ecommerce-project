@@ -620,13 +620,13 @@ a {
 
 .sections p {
   font-size: 0.8em;
-  margin-bottom: 1.5em;
+  margin-bottom: 3em;
 }
 
 .sections a {
   padding: 0.5em;
   border: 1px solid black;
-  background: rgb(50, 50, 255);
+  background: #00b3ff;
 }
 
 .grid-margin {
@@ -652,22 +652,67 @@ a {
   width: 80%;
   margin: 0 auto;
   background-color: #eed9c8;
-  border-radius: 1em;
 }
 
-.letter-text {
-  width: 50%;
+.letter-text p:nth-child(1) {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29px;
+}
+.letter-text p:nth-child(2) {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 29px;
 }
 
-.form {
-  width: 50%;
+.form input {
+  border: none;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 6px;
 }
 
-.letter-text > *,
+.form button {
+  border: none;
+  background-color: #ffbc96;
+  padding: 6px;
+}
+.letter-playstore {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.letter-playstore p:nth-child(1) {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.letter-playstore p:nth-child(2) {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29px;
+}
+
+.letter-text,
 .form {
   margin: 1em;
 }
 
+.letter-playstore-img {
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  height: 85px;
+}
 /* newsletter ends */
 
 /* footer */
